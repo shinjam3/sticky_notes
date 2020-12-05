@@ -13,5 +13,10 @@ A web app using the React JavaScript library, digitally representing physical st
 
 ## To run the project, please follow these steps in sequence, carefully or the program will not work properly:
 1. Download the .zip file from this repository. Extract the .zip file and you will see two folders: "stickynotes_frontend" and "stickynotes_backend".
-1. In the "stickynotes_backend" folder, you will see a file called "creatTable.js". Open the file and follow the steps to replace the code from lines 5-9 in the file.
-1. On the command prompt/terminal, go to the path
+1. In the "stickynotes_backend" folder, you will see a file called "createTable.js". Open the file and follow the steps to replace the code from lines 5-9 in the file.
+1. Afterwards, on the command prompt/terminal, go to the path of the "stickynotes_backend" folder and run "npm i" to install its dependencies.
+1. On the terminal in the same "stickynotes_backend" terminal, run "node createTable.js". Once you see "Table created" on the terminal, exit the program by holding the "Ctrl" + "c" keys (windows) or "Ctrl" + "z" (macOS).
+1. On the same terminal directory, run the command "node index.js" to run the back-end server. Do not close this terminal window.
+1. On a second terminal window, go to the "stickynotes_frontend" directory and run "npm i" to install its dependencies.
+1. On the second terminal, run "npm start" to run the front-end application. Do not close this terminal window.
+1. To close the program on the terminals, simply close both terminal windows.
