@@ -1,5 +1,4 @@
-# sticky_notes
-A React Application: Sticky Note (2020)
+# A React Application: Sticky Note (2020)
 
 ## Software Used:
 HTML, CSS, JavaScript, React, Node Express, MySQL
