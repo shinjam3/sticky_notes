@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.4;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+/* dynamically changes textarea placeholder by using a variable that is referenced by components */
+textarea::placeholder {
+  color: var(--placeholder-color);
+}
+
+textarea:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: var(--placeholder-color);
+}
+
+textarea::-ms-input-placeholder { /* Microsoft Edge */
+ color: var(--placeholder-color);
+}
+
+textarea::-moz-placeholder { /* Firefox 19+ */
+  color: var(--placeholder-color);
+}
