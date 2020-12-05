@@ -18,6 +18,6 @@ A web app using the React JavaScript library, digitally representing physical st
 1. Afterwards, on the command prompt/terminal, go to the path of the "stickynotes_backend" folder and run "npm i" to install its dependencies.
 1. On the terminal in the same "stickynotes_backend" terminal, run "node createTable.js". Once you see "Table created" on the terminal, exit the program by holding the "Ctrl" + "c" keys (windows) or "Ctrl" + "z" (macOS).
 1. On the same terminal directory, run the command "node index.js" to run the back-end server. Do not close this terminal window.
-1. On a second terminal window, go to the "stickynotes_frontend" directory and run "npm i" to install its dependencies.
+1. On a second terminal window, go to the "stickynotes_frontend" directory and run "npm i" to install its dependencies. You can ignore the "vulnerabilities" in the terminal
 1. On the second terminal, run "npm start" to run the front-end application. Do not close this terminal window.
 1. To close the program on the terminals, simply close both terminal windows.
