@@ -6,6 +6,9 @@ HTML, CSS, JavaScript, React, Node Express, MySQL
 ## Description:
 A web app using the React JavaScript library, digitally representing physical sticky notes. Users can write, save, delete or customize sticky notes. This project uses React components to operate dynamically. Information is sent to a local MySQL database through the Express.js server environment, using HTTP requests with the Fetch API.
 
+## Video demo:
+https://youtu.be/wooJi8W2OjE
+
 ## Preparations before downloading and running the project:
 * Please have MySQL installed in your computer and set up a local database. 
 * Please have Node.js installed. I am currently using Node.js version 12.16.3 for this project.
